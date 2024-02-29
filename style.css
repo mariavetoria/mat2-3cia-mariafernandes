@@ -1,7 +1,5 @@
-:root{
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap" rel="stylesheet">
+:root{ 
+    @import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap')
 --cor-de-fundo: #add8e6;
 --branco:#FFFFFF;
 --azul-celeste:#3299CC;
@@ -9,8 +7,8 @@
 --botao-inativo:rgba(123, 114, 230, 0.5);
 --texto-fundo:rgba(127, 118, 224, 0.3);
 }
-body {
+.body {
     background-color:var(--cor-de-fundo);
     color: var(--branco);
-    font-family: 'Charkra Petch', sans-serif;
+    font-family: 'Kalnia', sans-serif;
 }
