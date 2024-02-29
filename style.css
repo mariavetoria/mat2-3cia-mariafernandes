@@ -9,3 +9,8 @@
 --botao-inativo:rgba(123, 114, 230, 0.5);
 --texto-fundo:rgba(127, 118, 224, 0.3);
 }
+body {
+    background-color:var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: 'Charkra Petch', sans-serif;
+}
