@@ -1,4 +1,7 @@
 :root{
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap" rel="stylesheet">
 --cor-de-fundo: #add8e6;
 --branco:#FFFFFF;
 --azul-celeste:#3299CC;
