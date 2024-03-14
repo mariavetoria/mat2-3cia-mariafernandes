@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap')
+
 :root{ 
-    @import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap')
+    
 --cor-de-fundo:#add8e6;
 --branco:#FFFFFF;
 --azul-celeste:#3299CC;
@@ -11,4 +13,37 @@
     background-color:var(--cor-de-fundo);
     color: var(--branco);
     font-family: 'Kalnia', sans-serif;
+}
+
+.conteudo-principal{
+  display:flex
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  max-width:1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.titulo-principal{
+  text-align: left;
+  width: 100%;
+  font-size: 32px;
+}
+
+.titulo-principal span{
+    color: #4D4DFF;
+}
+
+.botao{
+  font-family:"Crakra Petch", sans-serif;
+  background-color: aquamarine (--botao-inativo);
+  color:azure;
+  display:flex;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 4px solid var(--azul-celeste);
+  border-left:4px solid var(--azul-celeste);
+  border-right:4px solid var(--azul-celeste);
+  border-top: none;
 }
