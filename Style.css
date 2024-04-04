@@ -4,7 +4,7 @@
        --branco: #FFFFFF;
        --botao-ativo: #00008B;
        --botao-inativo: #6495ED(58, 55, 94, 0.5);
-       --texto-fundo: #87CEEB(58, 55, 94, 0.3); }
+       --texto-fundo: #ADD8E6(58, 55, 94, 0.3); }
 body {
        background-color: var(--cor-de-fundo);
        color: var(--branco); font-family: 'Chakra Petch', sans-serif;
